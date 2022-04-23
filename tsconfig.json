@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"declaration": true,
+		"rootDir": "src",
+		"strictNullChecks": true,
+		"strictPropertyInitialization": false,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strict": true,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*.ts"]
+}
